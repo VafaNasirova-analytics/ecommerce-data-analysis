@@ -45,5 +45,13 @@ Data includes product information, categories, prices, and user activity.
 - Python (pandas, numpy, matplotlib)
 - Jupyter Notebook
 
+## Limitations
+
+- The dataset is event-based, meaning multiple events per user are possible. Funnel metrics are therefore event-level, not strict user-level conversion rates.
+
+- Cohorts are based on first observed activity within the dataset, not necessarily truly new users.
+
+- Balanced sampling was used to ensure equal representation across months, which may affect absolute counts but improves comparability.
+
 ## Author
 Vafa Nasirova
